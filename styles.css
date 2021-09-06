@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #6366f1;
+  --primary-color: #EF4444;
   --dark-gray:#6B7280;
   --off-white:#F3F4F6;
 }
 
 body {
   font-family: "Raleway", sans-serif;
+  margin: 0px;
 }
 
 hr {
@@ -26,8 +27,11 @@ hr {
 
 /* links */
 .link {
+  
   text-decoration: none;
   padding: 0.5rem 1rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
 }
 
 /* bem method */
@@ -132,4 +136,9 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+  font-weight: bold;
+  font-size: large;
 }
