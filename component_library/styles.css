@@ -97,6 +97,7 @@ hr {
 .hero .hero-heading{
     color: var(--dark-gray);
     padding-top: 1rem;
+    text-align: center;
 }
 
 /* sections */
@@ -116,3 +117,19 @@ hr {
 
 
 /* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
