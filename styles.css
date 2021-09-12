@@ -8,7 +8,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0px;
+  margin: 0px 5rem 0px 5rem;
 }
 
 hr {
@@ -21,7 +21,7 @@ hr {
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -108,6 +108,8 @@ hr {
 
 .section{
     padding: 2rem;
+    border-radius: 1rem;
+
 }
 
 .section  h3{
@@ -141,4 +143,11 @@ hr {
 .footer .footer-header{
   font-weight: bold;
   font-size: large;
+}
+
+.showcase-list{
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 1rem auto;
 }
