@@ -50,6 +50,19 @@ hr {
   border: 1px solid var(--primary-color);
 }
 
+/* mark labels */
+
+.mark-label{
+  border: 2px solid var(--dark-gray);
+  border-radius: 0.5rem;
+  padding: 00.5rem 1rem;
+}
+
+.small-date{
+  display: block;
+  margin: 1rem;
+}
+
 /* lists  */
 
 .list-non-bullet {
